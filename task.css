@@ -1,0 +1,199 @@
+.MainBody{
+    background-color: #177AD8;
+    color: white;
+    padding: 10px 20px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.glass{
+    width: 50px;
+    height: 50px;
+}
+.Nav{
+    width: 60px;
+    height: 60px;
+}
+.secondary{
+    display: flex;
+    gap: 40px;
+}
+
+.parentdiv{
+    position: relative;
+}
+
+.sea img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.water{
+    position: absolute;
+    top: 0px;
+    left: 98px;
+    right: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: white;
+    justify-content: center
+}
+.shore{
+    font-size: 70px;
+    width: fit-content;
+}
+.blue{
+    font-size: 15px;
+}
+.gray{
+    position: relative;
+    width: 100%;
+}
+.imgdiv img{
+    position: absolute;
+    width: 35%;
+    height: 520px;
+    right: 0px;
+    opacity: 40%;
+}
+.field img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 130px;
+    right: 375px;
+    object-fit: cover;
+}
+.bigfield img{
+    position: absolute;
+    width: 46%;
+    height: 430px;
+    top: 120px;
+    left: 140px;
+}
+.feat{
+    color: greenyellow;
+    background-image: url(white.jpg); width: 460px; height: 40px;
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: 60%;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    font-size: 27px;
+}
+.text{
+    position: absolute;
+    font-size: 20px;
+    top: 139px;
+    right: 80px;
+}
+.rext{
+    position: absolute;
+    font-size: 45px;
+    left: 140px;
+}
+.Love img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 210px;
+    right: 375px;
+    object-fit: cover;
+}
+.best{
+    position: absolute;
+    font-size: 20px;
+    top: 217px;
+    right: 69px;
+}
+.Leg img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 290px;
+    right: 375px;
+    object-fit: cover;
+}
+.limb{
+    position: absolute;
+    font-size: 20px;
+    top: 295px;
+    right: 164px;
+}
+.Cup img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 370px;
+    right: 375px;
+    object-fit: cover;
+}
+.drink{
+    position: absolute;
+    font-size: 20px;
+    top: 376px;
+    right: 50px;
+}
+.Melon img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 450px;
+    right: 375px;
+    object-fit: cover;
+}
+.fruit{
+    position: absolute;
+    font-size: 20px;
+    top: 455px;
+    right: 95px;
+}
+.May img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 120px;
+    right: 480px;
+    object-fit: cover;
+}
+.Man img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 210px;
+    right: 480px;
+    object-fit: cover;
+}
+.Comment img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 300px;
+    right: 480px;
+    object-fit: cover;
+}
+.Folder img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 390px;
+    right: 480px;
+    object-fit: cover;
+}
+.Like img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 480px;
+    right: 480px;
+    object-fit: cover;
+}
