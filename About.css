@@ -1,0 +1,258 @@
+.ET {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.otp {
+    position: relative;
+    display: flex;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 500px;
+}
+
+.otp img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+    z-index: 1;
+}
+
+.datext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 60px 0px 0px 65px;
+    gap: 25px;
+    z-index: 2;
+}
+
+.log img {
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    margin-left: 11%;
+}
+
+.bar {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #009dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    width: 143px;
+    z-index: 2;
+}
+
+.lax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    z-index: 2;
+}
+
+.rrrrh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    gap: 60px;
+    position: relative;
+}
+
+.dext {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ta {
+    color: #009dff;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.at {
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.baout {
+    font-size: 19px;
+    color: rgb(91, 90, 90);
+    font-weight: lighter;
+}
+
+.outba h5 {
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 10px 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.tuoba {
+    position: relative;
+    width: 250px;
+    height: 350px;
+}
+
+.vg {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    z-index: 1;
+}
+
+.vvg {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    z-index: 2;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.random img {
+    height: 665px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+.olp h3 {
+    font-size: 22px;
+}
+
+.plo h3 {
+    font-size: 16px;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insd {
+    border: 1px solid rgb(129, 129, 129);
+    width: 920px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    border-radius: 9px;
+    gap: 250px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.no {
+    color: white;
+    background-color: #009dff;
+    border-style: solid;
+    border-radius: 80px;
+    padding: 0px 40px 0px 40px;
+}
+
+.almost img {
+    height: 250px;
+    width: 246px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.almost {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+
+.fext {
+    color: white;
+    background-image: url(black.jpeg);
+    height: 500px;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.fefe {
+    margin-top: 150px;
+    margin-left: -80px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.miniad {
+    text-decoration: underline;
+}
+
+.subnews {
+    color: gray;
+    border-style: solid;
+    border-width: 0px;
+    background-color: white;
+    height: 45px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.blub {
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #009dff;
+    height: 45px;
+    width: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    margin-left: -40px;
+    margin-bottom: 0px;
+    background-image: url(black.jpeg);
+    border-top: 0px solid;
+    border-width: 1px;
+    width: 1100px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,409 @@
+.ALL {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.otp {
+    position: relative;
+    display: flex;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 500px;
+}
+
+.otp img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+    z-index: 1;
+}
+
+.datext {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 60px 0px 0px 65px;
+    gap: 25px;
+    z-index: 2;
+}
+
+.log img {
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    margin-left: 11%;
+}
+
+.bar {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #009dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    width: 143px;
+    z-index: 2;
+}
+
+.lax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    z-index: 2;
+}
+
+.text {
+    line-height: 22px;
+}
+
+.heeer {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.heya {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-direction: column;
+}
+
+.oo {
+    font-size: 17px;
+    color: green;
+    font-weight: 500;
+}
+
+.ooo {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.HOUSE {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-left: 32px;
+}
+
+.uptoo {
+    width: 250px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.box1 {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.herre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 0px 10px 0px;
+}
+
+.ho1 {
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    gap: 9px;
+    box-shadow: 9px 12px 5px 1px rgb(218, 217, 217);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.imgss {
+    width: 100%;
+    height: 200px;
+}
+
+.imgss img {
+    object-fit: cover;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 100%;
+    height: 100%;
+}
+
+.loop {
+    position: relative;
+}
+
+.swim img {
+    width: 100%;
+}
+
+.oolp {
+    position: absolute;
+    top: 0px;
+    left: 580px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'raleway', sans-serif;
+    gap: 2px;
+    color: white;
+    justify-content: center
+}
+
+.hy {
+    margin-top: -30px;
+    margin-left: -90px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.yt img {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.hhhhr {
+    margin: 0px 0px 0px 90px;
+    position: relative;
+    height: 350px;
+}
+
+.vg {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    border-radius: 9px;
+    z-index: 1;
+    top: 0px;
+    object-fit: cover;
+}
+
+.vvg {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    border-radius: 9px;
+    left: 190px;
+    right: 0px;
+    object-fit: cover;
+    width: 250px;
+}
+
+.dext {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+    margin-right: 100px;
+    height: 100%;
+
+}
+
+.df {
+    color: greenyellow;
+    width: 55%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.fd {
+    width: 55%;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.dfoo {
+    width: 55%;
+    font-size: 19px;
+    color: rgb(91, 90, 90);
+    font-weight: lighter;
+}
+
+.oodf {
+    width: 55%;
+    font-size: 15px;
+}
+
+.oodf h5 {
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 10px 30px 10px 30px;
+    width: fit-content;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.smoor {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fr {
+    color: #009dff;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.rd {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.broom img {
+    height: 300px;
+    width: 425px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.moorb {
+    object-fit: cover;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insd {
+    border: 1px solid rgb(129, 129, 129);
+    width: 920px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    border-radius: 9px;
+    gap: 250px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.no {
+    color: white;
+    background-color: #009dff;
+    border-style: solid;
+    border-radius: 80px;
+    padding: 0px 40px 0px 40px;
+}
+
+.almost img {
+    height: 250px;
+    width: 246px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.almost {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+
+.fext {
+    color: white;
+    background-image: url(black.jpeg);
+    height: 500px;
+    width: 100%;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.fefe {
+    margin-top: 150px;
+    margin-left: -80px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.miniad {
+    text-decoration: underline;
+}
+
+.subnews {
+    color: gray;
+    border-style: solid;
+    border-width: 0px;
+    background-color: white;
+    height: 45px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.blub {
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #009dff;
+    height: 45px;
+    width: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    margin-left: -40px;
+    margin-bottom: 0px;
+    background-image: url(black.jpeg);
+    border-top: 0px solid;
+    border-width: 1px;
+    width: 1100px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
